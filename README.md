@@ -40,11 +40,11 @@ The first step was exploring the dataset using:
     df.describe(), basic statistical summary.
     
 
-    Key features:
-  -  Order Time and Pickup Time: For calculating the time difference between order and pickup.
-  -  Delivery Time: To evaluate delivery efficiency.
-  -  Agent Rating and Agent Age: Influencing factors on delivery performance.
-  -  Weather and Traffic: External factors affecting delivery delays.
+#### Key features:
+Order Time and Pickup Time: For calculating the time difference between order and pickup.
+Delivery Time: To evaluate delivery efficiency.
+Agent Rating and Agent Age: Influencing factors on delivery performance.
+Weather and Traffic: External factors affecting delivery delays.
 
 # Data Cleaning
 
