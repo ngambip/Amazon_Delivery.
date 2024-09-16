@@ -35,18 +35,17 @@ The analysis follows a structured approach:
 
 The first step was exploring the dataset using:
 
-    df.head(),
-    df.columns, 
-    df.describe() to understand its structure, column names, and basic statistical summary.
+    df.head(),to understand its structure.
+    df.columns(), column names.
+    df.describe(), basic statistical summary.
     
-    Identification of key features such as Order_Time, Pickup_Time, Delivery_Time, Agent_Rating, and Weather to be analyzed further.
 
     Key features:
 
-   - Order Time and Pickup Time: For calculating the time difference between order and pickup.
-   - Delivery Time: To evaluate delivery efficiency.
-   - Agent Rating and Agent Age: Influencing factors on delivery performance.
-    -Weather and Traffic: External factors affecting delivery delays.
+  -  Order Time and Pickup Time: For calculating the time difference between order and pickup.
+  -  Delivery Time: To evaluate delivery efficiency.
+  -  Agent Rating and Agent Age: Influencing factors on delivery performance.
+  -  Weather and Traffic: External factors affecting delivery delays.
 
 # Data Cleaning
 
@@ -89,11 +88,12 @@ We visualized these patterns through bar charts, scatter plots, and histograms t
      Standard Deviation: I calculated the standard deviation of delivery times to understand the spread and consistency.
      A standard deviation of 51.9 minutes shows moderate variability, meaning while many deliveries are around the 125-minute mark, there are some that deviate                  significantly.
 
-  -   Interquartile Range (IQR): The IQR was used to assess the range between the 25th and 75th percentiles, which were 90       minutes and 160 minutes, respectively. This implies that the middle 50% of delivery times are fairly consistent.
+  -   Interquartile Range (IQR): The IQR was used to assess the range between the 25th and 75th percentiles, which were 90 minutes and 160 minutes, respectively. This implies that the middle 50% of delivery times are fairly consistent.
 
 -   Time Differences
 
-   To measure efficiency, the time difference between Order_Time and Pickup_Time was calculated, accounting for midnight       crossover. This calculation provided a more accurate representation of agent efficiency.
+   To measure efficiency, the time difference between Order_Time and Pickup_Time was calculated, accounting for midnight crossover. This calculation provided a more 
+   accurate representation of agent efficiency.
 
    Average, median, and mode values for time differences were computed to assess the pickup speed.
    
@@ -106,7 +106,8 @@ This section addresses key questions using Python, with results visualized for b
 -  gent Performance: Agent ratings were compared with delivery times to show that higher-rated agents consistently delivered faster.
 -  Vehicle Usage: A Donut Chart was created to display the count of deliveries made using different vehicle types,highlighting the popularity of scooters and bikes.
 -  A Pie chart was used to show that almost 75% of the orders where from Metropolitan
--  Scartter graph was used to determine the correlation between Agent Age and delivery time and there was a weak                relationship of 0.26, meaning no effeect on    the delivery time.
+-  Scartter graph was used to determine the correlation between Agent Age and delivery time and there was a weak relationship of 0.26, meaning no effeect on    the 
+   delivery time.
 -  Another scartter graph was used to determine the Correlation between Agents rating and agent age and it gave a negative relation meaning it have compeletely no effect
     
 # Conclusions and Recommendations
