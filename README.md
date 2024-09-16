@@ -1,7 +1,7 @@
 
 # Amazon Delivery Data Analysis
 
-![Amazon Logo](images/amazon_logo.png)
+![Amazon Logo](https://github.com/ngambip/Amazon_Delivery./blob/main/Images/Amazon_logo.png)
 
 ## Introduction
 
