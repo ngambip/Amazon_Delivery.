@@ -1,5 +1,3 @@
-# Amazon Delivery Data Analysis
-
 
 # Amazon Delivery Data Analysis
 
@@ -14,10 +12,15 @@ This project involves analyzing a dataset of Amazon deliveries to uncover key pa
 The analysis follows a structured approach:
 
    -[Data Exploration and Understanding](#Data-Exploration-and-Understanding)
+   
    -[Data cleaning](#Data-Cleaning)
+   
    -[Exploratory Data Analysis (EDA)](Exploratory-Data-Analysis-(EDA))
+   
    -[Stastical Calculations and Insights](#Statistical-Calculations-and-Insights)
+   
    -[Analysis and Visualization](#Analysis-and-Visualization)
+   
    -[Conclusions and Recommendations](#Conclusions-and-Recommendations)
 
 ## Technologies Used
@@ -32,7 +35,9 @@ The analysis follows a structured approach:
 
 The first step was exploring the dataset using:
 
-    df.head(), df.columns, and df.describe() to understand its structure, column names, and basic statistical summary.
+    df.head(),
+    df.columns, 
+    and df.describe() to understand its structure, column names, and basic statistical summary.
     Identification of key features such as Order_Time, Pickup_Time, Delivery_Time, Agent_Rating, and Weather to be             analyzed further.
 
     Key features:
