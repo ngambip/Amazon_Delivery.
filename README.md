@@ -105,7 +105,7 @@ This section addresses key questions using Python, with results visualized for b
 
 -   Delivery Time Analysis: The distribution of delivery times was plotted using a histogram, showing that most deliveries    took between 90 to 160 minutes.
    
--  gent Performance: Agent ratings were compared with delivery times to show that higher-rated agents consistently delivered faster.
+-  Agent Performance: Agent ratings were compared with delivery times to show that higher-rated agents consistently delivered faster.
 -  Vehicle Usage: A Donut Chart was created to display the count of deliveries made using different vehicle types,highlighting the popularity of scooters and bikes.
 -  A Pie chart was used to show that almost 75% of the orders where from Metropolitan
 -  Scartter graph was used to determine the correlation between Agent Age and delivery time and there was a weak relationship of 0.26, meaning no effeect on    the 
