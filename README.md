@@ -41,7 +41,6 @@ The first step was exploring the dataset using:
     
 
     Key features:
-
   -  Order Time and Pickup Time: For calculating the time difference between order and pickup.
   -  Delivery Time: To evaluate delivery efficiency.
   -  Agent Rating and Agent Age: Influencing factors on delivery performance.
