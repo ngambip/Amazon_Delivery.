@@ -37,8 +37,9 @@ The first step was exploring the dataset using:
 
     df.head(),
     df.columns, 
-    and df.describe() to understand its structure, column names, and basic statistical summary.
-    Identification of key features such as Order_Time, Pickup_Time, Delivery_Time, Agent_Rating, and Weather to be             analyzed further.
+    df.describe() to understand its structure, column names, and basic statistical summary.
+    
+    Identification of key features such as Order_Time, Pickup_Time, Delivery_Time, Agent_Rating, and Weather to be analyzed further.
 
     Key features:
 
@@ -78,14 +79,15 @@ We visualized these patterns through bar charts, scatter plots, and histograms t
     this time.
 
 -    Median: The median provides the middle value in the data and is useful when the data contains outliers.
-     In this case, the median delivery time was 125 minutes, very close to the mean, suggesting a fairly symmetrical            distribution of delivery times.
+     In this case, the median delivery time was 125 minutes, very close to the mean, suggesting a fairly symmetrical distribution of delivery times.
 
 -    Mode: The most frequently occurring delivery time helps identify the most common duration for deliveries.
         The mode for delivery time was 90 minutes, indicating that a significant portion of deliveries tended to be faster.
 
 -    Standard Deviation and Variability
 
-     Standard Deviation: I calculated the standard deviation of delivery times to understand the spread and consistency.        A standard deviation of 51.9 minutes shows moderate variability, meaning while many deliveries are around the 125-         minute mark, there are some that deviate significantly.
+     Standard Deviation: I calculated the standard deviation of delivery times to understand the spread and consistency.
+     A standard deviation of 51.9 minutes shows moderate variability, meaning while many deliveries are around the 125-minute mark, there are some that deviate                  significantly.
 
   -   Interquartile Range (IQR): The IQR was used to assess the range between the 25th and 75th percentiles, which were 90       minutes and 160 minutes, respectively. This implies that the middle 50% of delivery times are fairly consistent.
 
@@ -101,18 +103,18 @@ This section addresses key questions using Python, with results visualized for b
 
 -   Delivery Time Analysis: The distribution of delivery times was plotted using a histogram, showing that most deliveries    took between 90 to 160 minutes.
    
--  gent Performance: Agent ratings were compared with delivery times to show that higher-rated agents consistently             delivered faster.
--  Vehicle Usage: A Donut Chart was created to display the count of deliveries made using different vehicle types,            highlighting the popularity of scooters and bikes.
+-  gent Performance: Agent ratings were compared with delivery times to show that higher-rated agents consistently delivered faster.
+-  Vehicle Usage: A Donut Chart was created to display the count of deliveries made using different vehicle types,highlighting the popularity of scooters and bikes.
 -  A Pie chart was used to show that almost 75% of the orders where from Metropolitan
--  Scartter graph was used to determine the correlation between Agent Age and delivery time and there was a weak                relationship of 0.26, meaning no effeect on the delivery time.
--  Another scartter graph was used to determine the Correlation between Agents rating and agent age and it gave a negative     relation meaning it have compeletely no effect
+-  Scartter graph was used to determine the correlation between Agent Age and delivery time and there was a weak                relationship of 0.26, meaning no effeect on    the delivery time.
+-  Another scartter graph was used to determine the Correlation between Agents rating and agent age and it gave a negative relation meaning it have compeletely no effect
     
 # Conclusions and Recommendations
 
 Based on the analysis, the following Analysis were drawn:
--   Vehicle Selection: Scooter and bike deliveries were faster and more efficient in metropolitan areas, even in                challenging weather.
--   Agent Rating Matters: Higher-rated agents delivered faster, suggesting the importance of experience and performance in     improving delivery efficiency.
--   Weather Impact: Adverse weather conditions significantly impacted delivery times, particularly for scooter and bike          deliveries.
+-   Vehicle Selection: Scooter and bike deliveries were faster and more efficient in metropolitan areas, even in challenging weather.
+-   Agent Rating Matters: Higher-rated agents delivered faster, suggesting the importance of experience and performance in improving delivery efficiency.
+-   Weather Impact: Adverse weather conditions significantly impacted delivery times, particularly for scooter and bike deliveries.
   
  ### Strengths
 
